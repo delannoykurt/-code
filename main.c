@@ -1,17 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 
-
+// Create a simple linked list
 int main(void)
 {
-	int test;
-	
-	srand(time(NULL));
-	test = rand() % 10;
-
-	printf("valeure aleatoire de 0 a 10: %d\n", test);
-
-
-	return 0;
+    printf("Hello World");
+    return 0;
 }
